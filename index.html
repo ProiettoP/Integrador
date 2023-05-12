@@ -24,7 +24,7 @@
                     <a href="#a2"><button type="button" class="btn" style="color: white;">Los oradores</button></a>
                     <a href="#a3"><button type="button" class="btn" style="color: white;">El lugar</button></a>
                     <a href="#a4"><button type="button" class="btn" style="color: white;">Conviertete en orador</button></a>
-                    <a href="#a5"><button type="button" class="btn" style="color: green;">Comprar tickets</button></a>
+                    <a href="#"><button type="button" class="btn" style="color: green;">Comprar tickets</button></a>
                                        
                 </div>
             </div>
@@ -53,7 +53,7 @@
         <br>
         <br>
 
-        <div class="contenedor" style="width: auto;">
+        <div class="contenedor" style="width: auto; text-align: left;">
             <div id="uno">
                 <img src="img/steve.jpg" width="320px">
                 <h2>Steve jobs</h2>
@@ -92,9 +92,41 @@
                 
             </div>
         </div>
-    </main>
-
         <br>
+        
+        
+        <p id="a4">Conviertete en un</p>
+        <h1>ORADOR</h1>
+        <div id="conviertete" style="align-items: center;">
+        <form action="ingresar" method="post"></form>
+        <fieldset>
+                <p>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar</p>
+            <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <textarea name="direccion" id="hablar" rows="5"placeholder="De que quieres hablar?"></textarea>
+            </div>
+            <p style="text-align: left;">Recuerda incluir un titulo para tu charla</p>
+            <button type="submit" class="btn btn-success" id="enviar">Enviar</button>
+          </div>
+        
+    </main>
+    <br>
+    <footer>
+        <div class="contenedor-flex">
+            <a href="#"><button type="button" class="btn" style="color: white;">Preguntas frecuentes</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;">Contactanos</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;">Prensa</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;">Conferencia</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;;">Terminos y condiciones</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;">Privacidad</button></a>
+            <a href="#"><button type="button" class="btn" style="color: white;">Estudiantes</button></a>
+        </div>
+    </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
