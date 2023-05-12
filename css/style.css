@@ -36,24 +36,92 @@ main h1
 {
     display: flex;
     width: 80%;
-    height: 500px;justify-content: space-around;
+    height: 500px;
+    justify-content: space-around;
     align-items: flex-end;
+    text-align: left;
            
 }
 
 .contenedor h2
 {
+    margin-left: 5px;
     text-align: left;
 }
 
 #uno,#dos,#tres
 {
     width: 320px;
-    height: 540px;
+    height: 500px;
     background-color: white;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: left;
     
+}
+
+.contenedortexto
+{
+    margin-left: 5px;
+    display: flex;
+    justify-content: left;
+    margin-right: 10px;
+}
+
+.contenedortexto div
+{
+    margin-right: 10px;
+}
+
+.cjava
+{
+    margin-top: 10px;
+    background-color: orange;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+}
+
+.creact
+{
+    
+    margin-top: 10px;
+    background-color: lightblue;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+
+.cnegocios
+{
+    display: flex;
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+}
+
+.cstartups
+{
+    margin-top: 10px;
+    background-color: red;
+    width: 55px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+    color: white;
 }
 
 p
@@ -91,4 +159,5 @@ footer
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
